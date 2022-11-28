@@ -1,6 +1,6 @@
 from aiogram import Bot, Dispatcher, executor, types
 
-TOKEN = "5805958193:AAGfyWDTmzTxhk-mHRC0bSDPCXcZ3yuu9BY"
+TOKEN = "вставляем_сюда_свой_токен"
 
 bot = Bot(token=TOKEN)
 dispatcher = Dispatcher(bot)
