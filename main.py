@@ -1,6 +1,5 @@
 from aiogram import Bot, Dispatcher, executor, types
-
-TOKEN = "вставляем_сюда_свой_токен"
+from config import TOKEN
 
 bot = Bot(token=TOKEN)
 dispatcher = Dispatcher(bot)
